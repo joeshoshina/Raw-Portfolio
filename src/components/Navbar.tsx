@@ -10,27 +10,27 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-row items-center justify-evenly p-5 bg-(--nav-bg-color) border border-solid border-(--nav-border-color)">
+    <div className="flex flex-wrap flex-col sm:flex-row items-center justify-evenly p-5 bg-(--nav-bg-color) border border-solid border-(--nav-border-color)">
       <a className="text-2xl font-bold text-(--logo-color)" href="index.html">
         Joe Hoshina
       </a>
       <nav>
         <a
           href="#projects"
-          className="pr-4 text-lg text-(--link-color) hover:text-(--link-hover-color)"
+          className="pr-4 text-md text-(--link-color) hover:text-(--link-hover-color)"
         >
           Projects
         </a>
         <a
           href="#contact"
-          className="pl-4 text-lg text-(--link-color) hover:text-(--link-hover-color)"
+          className="pl-4 text-md text-(--link-color) hover:text-(--link-hover-color)"
         >
           Contact
         </a>
       </nav>
       <button
         onClick={toggleTheme}
-        className="border-2 border-solid rounded-lg border-(--border-color) text-(--text-color) px-1 py-2"
+        className="border-1 border-solid text-sm rounded-lg border-(--border-color) text-(--text-color) px-2 py-1"
       >
         Toggle Theme
       </button>
