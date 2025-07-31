@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center justify-center text-center px-6 py-20">
+    <section className="flex flex-col items-center justify-center text-center px-6 pt-40 pb-10">
       <h1 className="text-5xl font-bold">Joe Hoshina</h1>
       <p className="text-xl text-center pt-6">
         Building solutions that bridge software, strategy, and real-world
