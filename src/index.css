@@ -20,6 +20,7 @@ body {
   --link-color: #007bff;
   --link-hover-color: #0056b3;
   --border-color: #111827;
+  --card-shadow-color: #6ea8ff;
 }
 
 [data-theme="dark"] {
@@ -31,4 +32,5 @@ body {
   --link-color: #6ea8ff;
   --link-hover-color: #9ecaff;
   --border-color: #d1d5db;
+  --card-shadow-color: #0056b3;
 }
