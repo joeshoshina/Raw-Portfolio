@@ -13,7 +13,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   const isValidUrl = link.startsWith("http");
 
   return (
-    <div className="text-left border border-solid border-(--nav-border-color) bg-(--nav-bg-color) p-4 max-h-sm h-50 max-w-sm w-full rounded-lg transition-all duration-200 hover:-translate-y-1">
+    <div className="text-left border border-solid border-(--nav-border-color) bg-(--nav-bg-color) p-4 max-h-sm h-50 max-w-sm w-full rounded-lg transition-all duration-200 hover:-translate-y-1 hover:shadow-[10px_10px_15px_var(--card-shadow-color)]">
       <div className="flex flex-col gap-y-2 h-full">
         <h3 className="font-bold text-xl text-(--link-color)">{title}</h3>
         <p className="text-sm italic">{description}</p>
