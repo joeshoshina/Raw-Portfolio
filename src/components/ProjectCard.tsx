@@ -27,12 +27,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             View on my GitHub &rarr;
           </a>
         ) : (
-          <span className="text-gray-400 mt-2 inline-block">Coming Soon</span>
+          <span className="text-gray-500 mt-2 inline-block">Coming Soon</span>
         )}
       </div>
     </div>
   );
 };
 
-// Gotta fix spacing, thinking of using flex col to stack the title, description, and link, space evenly
 export default ProjectCard;
