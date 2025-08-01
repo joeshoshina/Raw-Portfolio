@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="flex flex-wrap flex-col sm:flex-row items-center justify-evenly p-5 bg-(--nav-bg-color) border border-solid border-(--nav-border-color) top-0 z-50 fixed w-full">
-      <a className="text-2xl font-bold text-(--logo-color)" href="hero">
+      <a className="text-2xl font-bold text-(--logo-color)" href="#hero">
         Joe Hoshina
       </a>
       <nav>
