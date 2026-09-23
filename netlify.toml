@@ -1,0 +1,14 @@
+# Static site, no build step. Overrides the old Vite build settings in the Netlify UI.
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/logos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
